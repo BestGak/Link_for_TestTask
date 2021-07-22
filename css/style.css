@@ -208,7 +208,9 @@ padding: 30px 0px !important;
         max-width: 480px;
         padding-right: 0px;
     }
-
+    .splide__slide-descr::before {
+    left: calc(100% - 350px);
+}
 }
 
 @media (max-width: 550px) {
