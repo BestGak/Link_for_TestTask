@@ -194,6 +194,12 @@ padding: 30px 0px !important;
     .splide__slide {
         max-width: 682px;
     }
+    .splide__slide-descr::before{
+    left: calc(100% - 395px);
+}
+
+
+    }
     .splide__slide-descr {
         font-size: 13px;
         width: 75%;
