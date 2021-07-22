@@ -146,7 +146,7 @@ body {
     height: 100%;
     width: 3px;
     background-color: #7F5AF0;
-    left: calc(100% - 524px);
+    left: 136px;
 }
 
 .splide__slide-img {
@@ -194,15 +194,12 @@ padding: 30px 0px !important;
     .splide__slide {
         max-width: 682px;
     }
-    .splide__slide-descr::before{
-    left: calc(100% - 395px);
-}
-
-
-    }
     .splide__slide-descr {
         font-size: 13px;
         width: 75%;
+    }
+    .splide__slide-descr::before{
+        left: calc(100% - 395px);
     }
 }
 
